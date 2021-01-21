@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 130px;
+    background-color: red;
+    align-items: center;
+}
+
+header figure {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 15%;
+    background-color: none;
+}
+
+header figure img {
+    height: 100%;
+}
+
+header h1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 60%;
+    background-color: none;
+    height: 50%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    background-color: none;
+    height: 30%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+header nav a span{
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    
+}
+
+header nav a span:hover{
+    order: 2;
+}
+
+header nav a i{
+    order: 1;
+}
+
+header nav a:hover span{
+    color: rgb(206, 206, 34);
+}
+
+header nav a:hover i{
+    color: rgb(206, 206, 34);
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    background-color:black;
+    width: 100%;
+    height: 50px;
+
+}
+
+main nav a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+main nav a:hover {
+    color: rgb(206, 206, 34);
+}
+
+main p{
+    text-align: center;
+}
+
+main section{
+    flex-direction: row;
+    display: flex;
+}
+
+main section div{
+    width: 45%;
+    height: 45%;
+    border: 2px solid black;
+    background-color:none;   
+}
+
+ main section div img{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 1.5s all;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

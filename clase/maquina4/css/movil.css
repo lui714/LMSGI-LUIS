@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div#container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "cabecera"
+        "cuerpo"
+        "pie";
+}
+
+div#container nav#contactos{
+    display: none;
+}
+
+div#container > header{
+    grid-area: cabecera;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "navSociales navSociales navSociales"
+        "logo        titulo      navicon"
+        "mPrincipal  mPrincipal  mPrincipal"
+    ;
+}
+
+div#container header nav#sociales{
+    grid-area: navSociales;
+    justify-self: end;
+    font-size: 30px;
+}
+
+div#container header div#logo{
+    grid-area: logo;
+}
+
+div#container header h1{
+    grid-area: titulo;
+}
+
+div#container header a#navicon{
+    grid-area: navicon;
+}
+
+div#container header nav#principal{
+    grid-area: mPrincipal;
+    display: grid;
+    grid-template-columns: 1fr;
+  
+
+}
+
+div#container main{
+    grid-area: cuerpo;
+    background-color: rgb(219, 83, 33);
+}

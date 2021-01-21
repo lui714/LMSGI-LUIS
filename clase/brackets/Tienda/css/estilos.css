@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(0,0,255,.5);
+}
+header figure {
+    display: inline-block;
+}
+header h1 {
+    display: inline-block;
+}
+header nav {
+    background-color: cyan;
+}
+header a {
+    display: block
+}
+
+header img {
+    height: 150px
+}
+
+main {
+    background-color: grey
+}
+
+main section footer {
+    background-color: transparent;
+}
+main section article footer { /* selector descendente */
+    background-color: red;
+}
+
+main section article img {
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: white 5px 5px;
+    transition: 1.5s all;
+}
+main section article img:hover {
+    background-color: whitesmoke;
+    box-shadow: yellow -5px 5px;
+    height: 300px;
+}
+
+
+main section article.par h3 {
+    text-align: right;
+    color: yellow;
+}
+
+main section article.impar h3 {
+    color: red;
+    text-align: center
+}
+
+footer {
+    height: 100px;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,.7)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
